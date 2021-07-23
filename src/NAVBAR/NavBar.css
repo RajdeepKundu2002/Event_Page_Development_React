@@ -1,0 +1,42 @@
+.navbar {
+  margin-top: 0px;
+  background-color: rgb(16,24,32,0.4);
+  position: sticky;
+  display: flex;
+  width: auto;
+}
+.navbar-nav {
+  display: flex;
+  flex-grow: 5;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+.LOGO {
+  width: 300px;
+  border: 3px solid #f2aa4cff;
+  padding: 5px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.list-item {
+  font-size: 20px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.link{
+  text-decoration: none;
+  color:rgb(148, 195, 236)
+}
+.Table {
+  padding-left: 340px;
+  padding-top: 26px;
+  align-items: right;
+}
+.link:active{
+  font-size: 23px;
+  background-color:darkmagenta;
+}
+.link:hover{
+  border: 3px solid cyan;
+}
